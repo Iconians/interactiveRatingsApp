@@ -1,0 +1,55 @@
+.card {
+  width: 380px;
+  background-color: black;
+  border-radius: 30px;
+  height: 350px;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+.star-icon {
+  width: 25px;
+  height: 25px;
+  background-color: dimgrey;
+  padding: 10px;
+  border-radius: 50rem;
+  display: flex;
+  justify-content: center;
+}
+
+.numBtnDiv {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50rem;
+}
+
+.numBtn:hover {
+  background-color: var(--orange);
+  color: var(--darkBlue);
+}
+
+.numBtn:focus {
+  background-color: var(--white);
+  color: var(--darkBlue);
+}
+
+.numBtn {
+  border-radius: 50rem;
+}
+
+.submitBtn:hover {
+  background-color: var(--white);
+}
+
+.submitBtn {
+  width: 98%;
+  background-color: var(--orange);
+  color: var(--darkBlue);
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.result-div {
+  margin: auto;
+}

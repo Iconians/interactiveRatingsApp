@@ -12,7 +12,7 @@ export const RatingComponent: React.FC<RatingComponentProps> = ({
       <div className="star-icon">
         <img src="/icon-star.svg" alt="" />
       </div>
-      <div>
+      <div className="h1-div">
         <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback
@@ -31,7 +31,7 @@ export const RatingComponent: React.FC<RatingComponentProps> = ({
         ))}
       </div>
       <button className="submitBtn" onClick={() => setSubmitted(true)}>
-        Submit
+        SUBMIT
       </button>
     </div>
   );

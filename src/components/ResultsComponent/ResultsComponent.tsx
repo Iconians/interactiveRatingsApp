@@ -10,10 +10,10 @@ export const ResultsComponent: React.FC<ResultsComponentProps> = ({
       <div className="result-div">
         <img src="/illustration-thank-you.svg" alt="" />
       </div>
-      <div className="result-div">
+      <div className="result-div selected-div">
         <p>You selected {rating} out of 5</p>
       </div>
-      <div className="result-div">
+      <div className="result-div main-body">
         <h1>Thank you!</h1>
         <p>
           We appreciate you taking the time to give a rating. If you ever need

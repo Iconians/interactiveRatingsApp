@@ -1,6 +1,7 @@
 .card {
   width: 380px;
   background: linear-gradient(transparent -10%, black);
+  background: linear-gradient(to bottom, #232A34 0%, #181E27 100%);
   border-radius: 30px;
   height: 350px;
   padding: 30px;
